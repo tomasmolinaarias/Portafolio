@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/Home.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import cv from "../assets/document/CV.pdf";
+import cv from "../assets/document/CV_new.pdf";
 export const Home = () => {
   return (
     <div className="home">
