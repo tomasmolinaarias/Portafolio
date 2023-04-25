@@ -1,0 +1,60 @@
+.project {
+  padding-top: 3%;
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  margin-top: 50px;
+  color: #3e497a;
+  font-size: 35px;
+}
+.project img {
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 30px;
+  color: #3e497a;
+}
+.project span {
+  font-size: 30px;
+  color: #3e497a;
+}
+#iconGit {
+  padding-top: 3%;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+@media only screen and (max-width: 667px) {
+  .project {
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  .project h1 {
+    font-size: 30px;
+  }
+  .project img {
+    max-width: 89%;
+  }
+  .project p {
+    font-size: 65%;
+  }
+  .project span {
+    font-size: 50%;
+  }
+}
