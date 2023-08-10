@@ -7,6 +7,25 @@ import certificado6 from "../assets/img/certificados/Desarrollador full-stackJS.
 import certificado7 from "../assets/img/certificados/react.jpg";
 import certificado8 from "../assets/img/certificados/diploma-python.pdf";
 import certificado9 from "../assets/img/certificados/certificado_Inacap.pdf";
+import certificado10 from "../assets/img/certificados/diploma-computacion-basica.pdf";
+import certificado11 from "../assets/img/certificados/diploma-basico-javascript.pdf";
+import certificado12 from "../assets/img/certificados/diploma-typescript.pdf";
+import certificado13 from "../assets/img/certificados/diploma-pensamiento-logico-estructuras.pdf";
+import certificado14 from "../assets/img/certificados/diploma-pensamiento-logico-lenguajes.pdf";
+import certificado15 from "../assets/img/certificados/diploma-pensamiento-logico.pdf";
+import certificado16 from "../assets/img/certificados/diploma-intro-historia-internet.pdf";
+import certificado17 from "../assets/img/certificados/diploma-basico-github-actions.pdf";
+import certificado18 from "../assets/img/certificados/py1_jvl.pdf";
+import certificado19 from "../assets/img/certificados/dj.pdf";
+import certificado20 from "../assets/img/certificados/py_jv.pdf";
+import certificado21 from "../assets/img/certificados/js_jvl.pdf";
+import certificado22 from "../assets/img/certificados/js2_jvl.pdf";
+import certificado23 from "../assets/img/certificados/htmljvl.pdf";
+import certificado24 from "../assets/img/certificados/css_jvl.pdf";
+import certificado25 from "../assets/img/certificados/diploma-git-github.pdf";
+import certificado26 from "../assets/img/certificados/diploma-paginas-web (1).pdf";
+import certificado27 from "../assets/img/certificados/diploma-wordpress-blog.pdf";
+import certificado28 from "../assets/img/certificados/diploma-web-chatgpt.pdf";
 export const experencia = [
   {
     lugar: "Universidad Tecnológica de Chile INACAP",
@@ -16,9 +35,123 @@ export const experencia = [
   },
   {
     lugar: "Platzi",
+    fecha: "jun.2023 - jun.2023",
+    estudio: "Creacion de pagina web con chatgpt",
+    diploma: certificado28,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "jun.2023 - jun.2023",
+    estudio: "Creación de blogs con Wordpress",
+    diploma: certificado27,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "jun.2023 - jun.2023",
+    estudio: "Creación de pagina web",
+    diploma: certificado26,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "may.2023 - may.2023",
+    estudio: "Curso profesional de Git y GitHub",
+    diploma: certificado25,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Introducción a CSS",
+    diploma: certificado24,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Introducción a la programacion HTML5",
+    diploma: certificado23,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Javascript 2",
+    diploma: certificado22,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Javascript 1",
+    diploma: certificado21,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Introducción a la Analítica de Datos Python",
+    diploma: certificado20,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Introducción Python a Djangon",
+    diploma: certificado19,
+  },
+  {
+    lugar: "Joven Programadores",
+    fecha: "may.2023 - may.2023",
+    estudio: "Introducción Python",
+    diploma: certificado18,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Github Actions",
+    diploma: certificado17,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Introducción a la web: Historia y funcionamiento del internet",
+    diploma: certificado16,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Pensamiento lógico: Algoritmo y Diagrama de Flujo",
+    diploma: certificado15,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Pensamiento lógico: Lenguaje de programación",
+    diploma: certificado14,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Pensamiento lógico: Funciones y Estructuras de control",
+    diploma: certificado13,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "abr.2023 - abr.2023",
+    estudio: "Fundamento de Typescript",
+    diploma: certificado12,
+  },
+  {
+    lugar: "Platzi",
     fecha: "mar.2023 - mar.2023",
     estudio: "Fundamento de Python",
     diploma: certificado8,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "mar.2023 - mar.2023",
+    estudio: "Básico JavaScript",
+    diploma: certificado11,
+  },
+  {
+    lugar: "Platzi",
+    fecha: "nov.2022 - nov.2022",
+    estudio: "Computacion Básica ",
+    diploma: certificado10,
   },
   {
     lugar: "Udemy",

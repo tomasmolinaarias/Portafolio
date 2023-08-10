@@ -8,6 +8,7 @@ import suricata from "../assets/img/Proyectos/suricata.png";
 import iguana from "../assets/img/Proyectos/iguana.png";
 import pokemon from "../assets/img/Proyectos/Pokemon.png";
 import sistema from "../assets/img/Proyectos/scraping.png";
+
 export const ProjectList = [
   {
     name: "Sistema de predicción de precios",

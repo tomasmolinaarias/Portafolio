@@ -25,18 +25,31 @@ export const Home = () => {
         <h2>TECNOLOGIA</h2>
         <ol className="list">
           <li className="item">
-            <h4>Front-end</h4>
-            <span>React.js, Handlebars.js, Bootstrap, HTML/CSS</span>
-          </li>
-          <hr />
-          <li className="item">
-            <h4>Back-end</h4>
-            <span>Node.js, Express, PostgreSQL, MongoDB, SQL, Docker</span>
-          </li>
-          <hr />
-          <li className="item">
             <h4>Lenguajes</h4>
-            <span> JavaScript, Python</span>
+            <span> JavaScript, Python, CSS, HTML. </span>
+          </li>
+          <hr />
+          <li className="item">
+            <h4>Frameworks y bibliotecas:</h4>
+            <span>
+              Node.js, Express, Docker, React, Django, Boostrap, Sass, Angular,
+              Handlebars.
+            </span>
+          </li>
+          <hr />
+          <li className="item">
+            <h4>Base de datos</h4>
+            <span> MySQL, PostgreSQL, MongoDB.</span>
+          </li>
+          <hr />
+          <li className="item">
+            <h4>Herramientas</h4>
+            <span> Git, GitHub.</span>
+          </li>
+          <hr />
+          <li className="item">
+            <h4>Sistema Operativo</h4>
+            <span> Mac OS, Windows 10.</span>
           </li>
           <hr />
         </ol>
@@ -62,7 +75,6 @@ export const Home = () => {
               <button className="btn">DESCARGAR</button>
             </a>
           </li>
-          <hr />
         </ol>
       </div>
     </div>
