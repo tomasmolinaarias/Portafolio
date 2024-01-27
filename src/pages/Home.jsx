@@ -1,9 +1,22 @@
-import React from "react";
+import React,{useRef}from "react";
 import "../Style/Home.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import cv from "../assets/document/CV_new.pdf";
 export const Home = () => {
+  const correoRef = useRef(null);
+  const telefonoRef = useRef(null);
+
+  const handleCopiarClick = (ref) => {
+    const range = document.createRange();
+    range.selectNode(ref.current);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+    alert("Datos copiados al portapapeles");
+  };
+
   return (
     <div className="home">
       <div className="about">
@@ -20,7 +33,18 @@ export const Home = () => {
             <LinkedInIcon />
           </a>
         </div>
+        <div className="yo">
+        <ol className="list">
+          <li className="item">
+            <span>Hola a todos! Soy un apasionado del desarrollo de software, actualmente soy estudiante de Ingeniería en Informática en INACAP y también cursé el programa Full-Stack en JavaScript de Desafío Latam. Como participante activo en la Incubadora de Desafío Latam, siempre estoy en la búsqueda de desafíos y oportunidades para crecer como profesional. Mi enfoque es dar lo mejor de mí en este viaje de desarrollo de software. Valoraría un entorno laboral con horario flexible que me motive a mejorar constantemente.</span>
+          </li>
+          <br />
+        </ol>
       </div>
+
+
+      </div>
+  
       <div className="skills">
         <h2>TECNOLOGIA</h2>
         <ol className="list">
@@ -59,13 +83,15 @@ export const Home = () => {
         <ol className="list">
           <li className="item2">
             <h4> EMAIL :</h4>
-            <span id="correo">victortomasmolinaarias@gmail.com</span>
+            <span ref={correoRef}>victortomasmolinaarias@gmail.com</span>
+            <button onClick={() => handleCopiarClick(correoRef)}>Copiar Datos</button>
           </li>
           <br />
           <hr />
           <li className="item2">
             <h4>PHONE :</h4>
-            <span>+56973751229</span>
+            <span ref={telefonoRef}>+56973751229</span>
+            <button onClick={() => handleCopiarClick(telefonoRef)}>Copiar Datos</button>
           </li>
           <hr />
           <li className="item2">

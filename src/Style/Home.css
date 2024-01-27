@@ -44,6 +44,16 @@
   background-color: #1d7743;
   color: white;
 }
+.yo {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #21325e;
+  color: white;
+}
 .contacto {
   font-size: 35px;
   width: 100%;
@@ -62,7 +72,14 @@
   list-style: none;
   width: 60%;
 }
+.yo h1 {
+  color: white;
+}
 
+.yo .list {
+  list-style: none;
+  width:60%;
+}
 .list span {
   font-size: 20px;
 }
