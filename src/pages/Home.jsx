@@ -2,6 +2,7 @@ import React,{useRef}from "react";
 import "../Style/Home.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import cv from "../assets/document/CV_new.pdf";
 export const Home = () => {
   const correoRef = useRef(null);
@@ -84,14 +85,14 @@ export const Home = () => {
           <li className="item2">
             <h4> EMAIL :</h4>
             <span ref={correoRef}>victortomasmolinaarias@gmail.com</span>
-            <button onClick={() => handleCopiarClick(correoRef)}>Copiar Datos</button>
+            <button className='btn-copy' onClick={() => handleCopiarClick(correoRef)}><ContentCopyIcon/></button>
           </li>
           <br />
           <hr />
           <li className="item2">
             <h4>PHONE :</h4>
             <span ref={telefonoRef}>+56973751229</span>
-            <button onClick={() => handleCopiarClick(telefonoRef)}>Copiar Datos</button>
+            <button className='btn-copy' onClick={() => handleCopiarClick(telefonoRef)}><ContentCopyIcon/></button>
           </li>
           <hr />
           <li className="item2">

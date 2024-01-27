@@ -156,3 +156,15 @@ a {
   margin-top: -5px;
   padding-bottom: 10px;
 }
+.btn-copy{
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-left:2%;
+}
+.btn-copy:hover {
+  background-color: #f1f2f4;
+  color: blue;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
