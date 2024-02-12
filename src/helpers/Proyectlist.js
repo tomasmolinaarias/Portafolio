@@ -8,19 +8,19 @@ import suricata from "../assets/img/Proyectos/suricata.png";
 import iguana from "../assets/img/Proyectos/iguana.png";
 import pokemon from "../assets/img/Proyectos/Pokemon.png";
 import sistema from "../assets/img/Proyectos/scraping.png";
-/* import ciclo11 from "../assets/img/Proyectos/ciclo11.jpeg";
- */
+import ciclo11 from "../assets/img/Proyectos/ciclo11.png";
+
 export const ProjectList = [
- /*  {
+  {
     name: "Cedula 11 Desafio Latam",
     image: ciclo11,
     skills:
-      "JavaScript, express, node, puppeteer, cors, HTML, CSS, Bootstarp, chart.js y React.js",
+      "JavaScript, express, node, Firebase Authentication, mysql ,mysql workbench, Docker, jsonwebtoken",
     github: "https://github.com/dlab-team/C11-Backend",
     url: "https://github.com/dlab-team/C11-Backend",
     description:
-      "Proyecto centrado en visualizar la predicción de precios de la madera mediante el uso de la tecnología de scraping para obtener información de productos, junto con el método matemático de Brown para anticipar los valores futuros.",
-  }, */
+      "Durante mi participación en dos proyectos de incubadora, tuve a mi cargo el desarrollo del backend para la creación de una página web dedicada a Devsafio. Esta experiencia supuso un desafío emocionante que me permitió adquirir nuevas técnicas y habilidades.",
+  },
   {
     name: "Sistema de predicción de precios",
     image: sistema,
