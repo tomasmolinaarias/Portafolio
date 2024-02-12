@@ -8,17 +8,28 @@ import suricata from "../assets/img/Proyectos/suricata.png";
 import iguana from "../assets/img/Proyectos/iguana.png";
 import pokemon from "../assets/img/Proyectos/Pokemon.png";
 import sistema from "../assets/img/Proyectos/scraping.png";
-
+/* import ciclo11 from "../assets/img/Proyectos/ciclo11.jpeg";
+ */
 export const ProjectList = [
+ /*  {
+    name: "Cedula 11 Desafio Latam",
+    image: ciclo11,
+    skills:
+      "JavaScript, express, node, puppeteer, cors, HTML, CSS, Bootstarp, chart.js y React.js",
+    github: "https://github.com/dlab-team/C11-Backend",
+    url: "https://github.com/dlab-team/C11-Backend",
+    description:
+      "Proyecto centrado en visualizar la predicción de precios de la madera mediante el uso de la tecnología de scraping para obtener información de productos, junto con el método matemático de Brown para anticipar los valores futuros.",
+  }, */
   {
     name: "Sistema de predicción de precios",
     image: sistema,
     skills:
       "JavaScript, express, node, puppeteer, cors, HTML, CSS, Bootstarp, chart.js y React.js",
-    github: "#",
+    github: "https://github.com/tomasmolinaarias/PredicionDePrecio",
     url: "https://demo-front.vercel.app/",
     description:
-      "Proyecto enfocado en predecir los precios de maderas según su categoría",
+      "Proyecto centrado en visualizar la predicción de precios de la madera mediante el uso de la tecnología de scraping para obtener información de productos, junto con el método matemático de Brown para anticipar los valores futuros.",
   },
   {
     name: "Pokemon",
@@ -27,7 +38,7 @@ export const ProjectList = [
     github: "https://github.com/tomasmolinaarias/Pokemon",
     url: "https://pokemon-pokepoke.vercel.app/",
     description:
-      "El proyecto esta enfocado en promocionar mostrar pokemon('Practicando redux')",
+      "El proyecto se centra en exhibir información sobre Pokémon utilizando una API de Pokémon y, además, sirve como práctica para implementar Redux",
   },
   {
     name: "Club de tiro",
@@ -35,7 +46,7 @@ export const ProjectList = [
     skills: "Handlebars.js, CSS, Bootstrap, JavaScript, Node.js, Express",
     github: "https://github.com/tomasmolinaarias/clubFogeo",
     url: "https://clubdetirofogueo.herokuapp.com/",
-    description: "El proyecto esta enfocado en promocionar un Club de tiros.",
+    description: "El proyecto se orienta hacia la promoción de un Club de Tiro.",
   },
   {
     name: "Tareas",
@@ -53,7 +64,7 @@ export const ProjectList = [
     github: "https://github.com/tomasmolinaarias/RickAndMorty",
     url: "https://rick-and-mortyn.netlify.app",
     description:
-      "El proyecto esta enfocado a leer un api de Rick And Morty y mostrar los personajes ",
+      "El proyecto se centra en la lectura de una API de Rick and Morty para posteriormente exhibir los personajes de la serie.",
   },
   {
     name: "Sugerencias",
@@ -62,7 +73,7 @@ export const ProjectList = [
     github: "https://github.com/tomasmolinaarias/sugerencias",
     url: "https://tomasmolinaarias.github.io/sugerencias/",
     description:
-      "El proyecto esta enfocado en mostrar sugerecias de videos en youtube ",
+      "El proyecto se centra en proporcionar sugerencias de videos en la plataforma de YouTube.",
   },
   {
     name: "Viajes Chile",
@@ -70,16 +81,16 @@ export const ProjectList = [
     skills: "JavaScript, HTML, CSS y Boostrap",
     github: "https://github.com/tomasmolinaarias/viajes-chile",
     url: "https://chile-viajes1-victort-molina.netlify.app",
-    description: "El proyecto esta enfocado en promocionar viajes chile",
+    description: "El enfoque del proyecto es promover viajes en Chile.",
   },
   {
     name: "Suricata",
     image: suricata,
-    skills: "HTML y CSS ",
+    skills: "HTML, CSS, GithubPages",
     github: "https://github.com/tomasmolinaarias/suricata.git",
     url: "https://tomasmolinaarias.github.io/suricata/",
     description:
-      "El proyecto esta enfocado en promocionar un restaurante de comida llamada Suricata. ",
+      "El proyecto se centra en la promoción de un restaurante de comida llamado Suricata.",
   },
   {
     name: "Meet And Coffee",
@@ -87,7 +98,7 @@ export const ProjectList = [
     skills: "HTML y CSS ",
     github: "https://github.com/tomasmolinaarias/meet-y-coffee",
     url: "https://tomasmolinaarias.github.io/meet-y-coffee/",
-    description: "El proyecto esta enfocado en promocionar el meet y coffee",
+    description: "El proyecto se centra en la promoción de 'Meet and Coffee'.",
   },
   {
     name: "Iguana",
@@ -95,6 +106,6 @@ export const ProjectList = [
     skills: "HTML y CSS ",
     github: "https://github.com/tomasmolinaarias/IGUANA",
     url: "https://tomasmolinaarias.github.io/IGUANA/",
-    description: "Proyecto enfocado en mostrar informacion sobre las iguanas",
+    description: "El proyecto se enfoca en mostrar información sobre las iguanas.",
   },
 ];
