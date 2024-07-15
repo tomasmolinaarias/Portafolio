@@ -90,7 +90,7 @@ export const Home = () => {
           <br />
           <hr />
           <li className="item2">
-            <h4>PHONE :</h4>
+            <h4>TELEFONO :</h4>
             <span ref={telefonoRef}>+56973751229</span>
             <button className='btn-copy' onClick={() => handleCopiarClick(telefonoRef)}><ContentCopyIcon/></button>
           </li>
